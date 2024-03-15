@@ -1,0 +1,16 @@
+spring:
+   datasource:
+      username: decedent_care_center
+      password: decedent_care_center
+      url: jdbc:mysql://localhost:3306/decedent_care_center
+      
+   jpa:
+      hibernate:
+         ddl-auto: none
+      show-sql: true
+      defer-datasource-initialization: true
+      
+   sql:
+      init:
+         mode: always
+         #change to 'never' once tables have been created
