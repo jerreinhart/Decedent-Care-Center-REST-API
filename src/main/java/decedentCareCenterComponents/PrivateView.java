@@ -1,6 +1,7 @@
 package decedentCareCenterComponents;
 
 import java.util.Date;
+
 import jakarta.persistence.Embeddable;
 
 @Embeddable

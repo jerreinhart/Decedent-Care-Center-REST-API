@@ -2,6 +2,7 @@ package decedentCareCenter.entity;
 
 import java.util.Date;
 
+import care.center.controller.model.CareCenterData.DecedentServices;
 import decedentCareCenterComponents.Chapel;
 import decedentCareCenterComponents.FuneralDirector;
 import decedentCareCenterComponents.ServiceInfo;
@@ -18,4 +19,9 @@ public class Service {
 	private Date dateOfService;
 	private Chapel chapel;
 	private FuneralDirector funeralDirector;
+	
+	
+	public void add(DecedentServices decedentServices) {
+		
+	}
 }

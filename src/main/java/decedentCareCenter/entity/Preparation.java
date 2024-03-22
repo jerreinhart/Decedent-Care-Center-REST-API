@@ -2,6 +2,7 @@ package decedentCareCenter.entity;
 
 import java.util.Date;
 
+import care.center.controller.model.CareCenterData.DecedentData.DecedentPreparation;
 import decedentCareCenterComponents.Embalmer;
 import decedentCareCenterComponents.Merchandise;
 import decedentCareCenterComponents.PrepType;
@@ -17,4 +18,10 @@ public class Preparation {
 	private Date dateOfPrep;
 	private Embalmer embalmer;
 	private Merchandise merchandise;
+	
+	
+	public void add(DecedentPreparation decedentPreparation) {
+		
+	}
 }
+
